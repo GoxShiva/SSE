@@ -29,5 +29,5 @@ if not os.path.exists(update_flag):
     # Create the update flag file to indicate that the update has been done
     open(update_flag, 'w').close()
 
-import Sarfraz
+import Dump32
 Sarfraz.random_number2()
